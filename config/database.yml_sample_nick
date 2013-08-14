@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: riddler_development
+  pool: 5
+  username: Nelson
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: riddler_test
+  pool: 5
+  username: Nelson
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: riddler_production
+  pool: 5
+  username: Nelson
+
